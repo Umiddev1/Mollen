@@ -893,20 +893,17 @@ a {
 }
 .mollen__dataimg-spns {
   position: absolute;
-  bottom: 252px;
+  bottom: 262px;
   right: 30px;
-  width: 77px;
-  height: 77px;
-  text-align: center;
-  padding-top: 25px;
-  border-radius: 50%;
+  padding: 20px 15px;
+  background: #4E76C6;
+  border-radius: 56px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   border: 1px solid transparent;
   color: #fff;
-  background-color: #4E76C6;
   cursor: pointer;
   transition: all 0.2s ease-in;
 }
@@ -916,6 +913,30 @@ a {
   border-color: #4E76C6;
 }
 
+@media screen and (max-width: 991px) {
+  .mollen__dataimg-spns {
+    right: 170px;
+    bottom: 122px;
+  }
+}
+@media screen and (max-width: 864px) {
+  .mollen__dataimg-spns {
+    right: 90px;
+    bottom: 122px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .mollen__dataimg-spns {
+    right: 60px;
+    bottom: 122px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mollen__dataimg-spns {
+    right: 50px;
+    bottom: 122px;
+  }
+}
 .mollen__complect {
   margin-top: 242px;
 }

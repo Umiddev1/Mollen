@@ -29,7 +29,6 @@
     padding: 6px 13px;
     background: $color-blue;
     border-radius: 56px;
-    // font-family: 'Circle';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -51,7 +50,6 @@
     padding: 6px 13px;
     background: $color-blue;
     border-radius: 56px;
-    // font-family: 'Circle';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -68,27 +66,61 @@
   }
   &-spns {
     position: absolute;
-    bottom: 252px;
+    bottom: 262px;
     right: 30px;
-    width: 77px;
-    height: 77px;
-    // font-family: 'Circle';
-    text-align: center;
-    padding-top: 25px;
-    border-radius: 50%;
+    padding: 20px 15px;
+    background: $color-blue;
+    border-radius: 56px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;  
     border: 1px solid transparent;
     color: #fff;
-    background-color: $color-blue;
     cursor: pointer;
     transition: all 0.2s ease-in;
     &:hover {
       color: $color-blue;
       background-color: #fff;
       border-color: $color-blue;
+    }
+  }
+}
+
+@media screen and(max-width:991px) {
+    .mollen__dataimg {
+      &-spns {
+        right: 170px;
+        bottom: 122px;
+      }
+    }
+}
+
+
+@media screen and(max-width:864px) {
+  .mollen__dataimg {
+    &-spns {
+      right: 90px;
+      bottom: 122px;
+    }
+  }
+}
+
+@media screen and(max-width:780px) {
+  .mollen__dataimg {
+    &-spns {
+      right: 60px;
+      bottom: 122px;
+    }
+  }
+}
+
+
+@media screen and(max-width:768px) {
+  .mollen__dataimg {
+    &-spns {
+      right: 50px;
+      bottom: 122px;
     }
   }
 }
