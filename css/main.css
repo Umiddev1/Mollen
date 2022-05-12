@@ -342,6 +342,10 @@ template {
   font-family: "Orchidea pro";
   src: url("../font/Mint Type - Orchidea Pro Medium.otf");
 }
+@font-face {
+  font-family: "Circle";
+  src: url("../font/Mint Type - Orchidea Pro Medium.otf");
+}
 /* GENERAL */
 html {
   box-sizing: border-box;
@@ -1033,6 +1037,7 @@ a {
 }
 
 .catalog__text {
+  font-family: "Circle";
   max-width: 274px;
   width: 100%;
   font-weight: 300;
@@ -1052,12 +1057,17 @@ a {
 }
 @media screen and (max-width: 1272px) {
   .catalog__des {
-    margin-top: 250px;
+    margin-top: 420px;
+  }
+}
+@media screen and (max-width: 1157px) {
+  .catalog__des {
+    margin-top: 390px;
   }
 }
 @media screen and (max-width: 996px) {
   .catalog__des {
-    margin-top: 220px;
+    margin-top: 370px;
   }
 }
 @media screen and (max-width: 967px) {

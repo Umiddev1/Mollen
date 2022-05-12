@@ -181,6 +181,7 @@
   padding-left: 40px;
 }
 .catalog__text {
+  font-family: "Circle";
   max-width: 274px;
   width: 100%;
   font-weight: 300;
@@ -199,12 +200,19 @@
 
 @media screen and(max-width:1272px) {
     .catalog__des {
-      margin-top: 250px;
+      margin-top: 420px;
     }
 }
+
+@media screen and(max-width:1157px) {
+  .catalog__des {
+    margin-top: 390px;
+  }
+}
+
 @media screen and(max-width:996px) {
   .catalog__des {
-    margin-top: 220px;
+    margin-top: 370px;
   }
 }
 
