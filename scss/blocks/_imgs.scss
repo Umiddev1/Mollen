@@ -1,0 +1,16 @@
+.mollen__imgs {
+ position: relative;
+ bottom: 62px;
+ margin-bottom: 149px;
+ &-list {
+   margin-right: 10px;
+ }
+}
+
+@media screen and(max-width:991px) {
+  .mollen__imgs {
+    &-item {
+      margin-bottom: 16px;
+    }
+  }
+}

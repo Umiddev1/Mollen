@@ -1,0 +1,21 @@
+.mollen__dataimg {
+  margin-top: 110px;
+  &-list {
+    overflow-x: hidden;
+    margin-right: 0px;
+  }
+  &-item {
+    cursor: pointer;
+  }
+  &-img {
+    object-fit: cover;
+  }
+  &-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-1e1e;
+  }
+}

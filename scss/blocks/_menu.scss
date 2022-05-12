@@ -1,0 +1,250 @@
+.mollen__menu {
+  max-width: 1440px;
+  width: 100%;
+  height: 1031px;
+  background-color: #fff;
+  transform: translateY(-2138px);
+  border-radius: 20px;
+  &-wrapper {
+    display: flex;
+  }
+
+  &-aside {
+    width: 20%;
+    border-right: 1px solid $color-border;
+    height: 1031px;
+  }
+  &-close {
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    margin-left: 27px;
+    margin-top: 23px;
+    margin-bottom: 121px;
+    cursor: pointer;
+  }
+  &-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-gray;
+    cursor: pointer;
+    margin-left: 42px;
+    margin-bottom: 62px;
+    transition: color 0.2s ease;
+    &:hover {
+      color: $color-1e1e;
+    }
+  }
+  &-item {
+    margin-bottom: 26px;
+  }
+  &-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-1e1e;
+    transition: color 0.2s ease;
+    &:hover {
+      color: $color-gray;
+    }
+  }
+  &-lists {
+    display: flex;
+    position: relative;
+    top: 390px;
+  }
+  &-items {
+    margin-left: 15px;
+  }
+  &-items:nth-child(1) {
+    margin-left: 0;
+  }
+  &-links {
+    color: $color-blue;
+  }
+}
+.mollen__main {
+  width: 80%;
+  position: relative;
+  &-inp {
+    width: 100%;
+    padding: 20px 0;
+    padding-left: 20px;
+    border: 1px solid $color-border;
+    outline: none;
+  }
+  &-search {
+    font-size: 25px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  &-wrapper {
+    margin-left: 210px;
+    margin-top: 145px;
+  }
+  &-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-gray;
+    margin-left: 35px;
+    margin-bottom: 50px;
+  }
+  &-item {
+    margin-bottom: 26px;
+  }
+  &-link {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $color-1e1e;
+    transition: color 0.2s ease;
+    &:hover {
+      color: $color-blue;
+    }
+  }
+  &-phones {
+    margin-left: 245px;
+    position: relative;
+    top: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-1e1e;
+    transition: color 0.2s ease;
+    &:hover {
+      color: $color-blue;
+    }
+  }
+  &-call {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-blue;
+    transition: color 0.2s ease;
+    cursor: pointer;
+    margin-left: 37px;
+    &:hover {
+      color: $color-1e1e;
+    }
+  }
+  &-btn {
+    border: none;
+    background-color: $color-blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 60px;
+    cursor: pointer;
+  }
+}
+.show-open {
+  transform: translateY(-987px);
+  transition: all 0.4s ease;
+}
+
+@media screen and(max-width:1138px) {
+  .mollen__menu {
+    &-lists {
+      top: 370px;
+    }
+  }
+}
+@media screen and(max-width:1124px) {
+  .mollen__menu {
+    &-lists {
+      top: 350px;
+    }
+  }
+}
+
+@media screen and(max-width:1068px) {
+  .mollen__menu {
+    &-lists {
+      right: 20px;
+    }
+  }
+}
+
+@media screen and(max-width:1003px) {
+  .mollen__menu {
+    &-lists {
+      top: 390px;
+      right: 30px;
+    }
+    &-link {
+      font-size: 10px;
+    }
+    &-items {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media screen and(max-width:916px) {
+  .mollen__main {
+    &-link {
+      font-size: 30px;
+    }
+    &-phones {
+      margin-left: 100px;
+    }
+  }
+}
+
+@media screen and(max-width:871px) {
+    .mollen__menu {
+      &-lists {
+        top: 360px;
+      }
+    }
+}
+
+@media screen and(max-width:862px) {
+  .mollen__menu {
+    &-lists {
+      top: 370px;
+    }
+  }
+}
+
+@media screen and(max-width:779px) {
+  .mollen__menu {
+    &-lists {
+      right: 35px;
+      top: 350px;
+    }
+    &-items {
+      margin-left: 5px;
+    }
+  }
+}
+@media screen and(max-width:768px) {
+  .mollen__menu {
+    &-lists {
+      right: 35px;
+      top: 320px;
+    }
+  }
+  .mollen__main {
+    &-link {
+      font-size: 25px;
+    }
+  }
+}
