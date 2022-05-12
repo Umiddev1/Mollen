@@ -852,9 +852,11 @@ a {
 }
 .mollen__complect-block {
   display: flex;
+  justify-content: space-between;
 }
 .mollen__complect-blocks {
   position: relative;
+  justify-content: space-between;
   bottom: 48px;
   right: 2px;
   background: #f5f3f0;
@@ -863,7 +865,7 @@ a {
   position: relative;
 }
 .mollen__complect-img {
-  width: 719px;
+  max-width: 719px;
   width: 100%;
   height: 884px;
 }
@@ -991,7 +993,6 @@ a {
   max-width: 719px;
   width: 100%;
   height: 884px;
-  margin-left: 13px;
 }
 
 @-webkit-keyframes roundss {
@@ -1080,6 +1081,7 @@ a {
 
 .catalog__texts {
   margin-left: 30px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 1345px) {
