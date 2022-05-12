@@ -977,6 +977,12 @@ a {
      object-fit: cover;
   display: flex;
   justify-content: center;
+  -webkit-animation-name: rounds;
+          animation-name: rounds;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 .mollen__complect-girlsimg {
   max-width: 719px;
@@ -985,6 +991,29 @@ a {
   margin-left: 13px;
 }
 
+@-webkit-keyframes roundss {
+  0% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(250deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
+}
+
+@keyframes roundss {
+  0% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(250deg);
+  }
+  100% {
+    transform: rotate(50deg);
+  }
+}
 .catalog__title {
   font-size: 40px;
   line-height: 52px;
