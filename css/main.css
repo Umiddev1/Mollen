@@ -407,6 +407,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  width: 100vw;
   height: 1031px;
 }
 
