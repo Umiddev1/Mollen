@@ -423,6 +423,8 @@ a {
   color: #fff;
   font-size: 35px;
   cursor: pointer;
+  position: relative;
+  bottom: 5px;
 }
 .mollen__header-logo {
   margin-left: 40px;
@@ -830,7 +832,7 @@ a {
   margin-right: 0px;
 }
 .mollen__dataimg-item {
-  cursor: pointer;
+  position: relative;
 }
 .mollen__dataimg-img {
   -o-object-fit: cover;
@@ -846,6 +848,72 @@ a {
 }
 .mollen__dataimg-visibl {
   display: none;
+}
+.mollen__dataimg-spn {
+  position: absolute;
+  top: 26px;
+  left: 45px;
+  padding: 6px 13px;
+  background: #4E76C6;
+  border-radius: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.mollen__dataimg-spn:hover {
+  color: #4E76C6;
+  background-color: #fff;
+  border-color: #4E76C6;
+}
+.mollen__dataimg-spnn {
+  position: absolute;
+  bottom: 122px;
+  left: 30px;
+  padding: 6px 13px;
+  background: #4E76C6;
+  border-radius: 56px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.mollen__dataimg-spnn:hover {
+  color: #4E76C6;
+  background-color: #fff;
+  border-color: #4E76C6;
+}
+.mollen__dataimg-spns {
+  position: absolute;
+  bottom: 252px;
+  right: 30px;
+  width: 77px;
+  height: 77px;
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 50%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid transparent;
+  color: #fff;
+  background-color: #4E76C6;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.mollen__dataimg-spns:hover {
+  color: #4E76C6;
+  background-color: #fff;
+  border-color: #4E76C6;
 }
 
 .mollen__complect {
@@ -901,7 +969,7 @@ a {
   transition: all 0.2s ease;
 }
 .mollen__complect-btn:hover {
-  background-color: #222730;
+  background-color: #4E76C6;
   color: #fff;
 }
 .mollen__complect-spn {
@@ -994,6 +1062,14 @@ a {
   max-width: 719px;
   width: 100%;
   height: 884px;
+}
+.mollen__complect-frover {
+  -webkit-animation-name: rounds;
+          animation-name: rounds;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes roundss {

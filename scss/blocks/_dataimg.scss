@@ -5,7 +5,8 @@
     margin-right: 0px;
   }
   &-item {
-    cursor: pointer;
+    // cursor: pointer;
+    position: relative;
   }
   &-img {
     object-fit: cover;
@@ -20,5 +21,74 @@
   }
   &-visibl {
     display: none;
+  }
+  &-spn {
+    position: absolute;
+    top: 26px;
+    left: 45px;
+    padding: 6px 13px;
+    background: $color-blue;
+    border-radius: 56px;
+    // font-family: 'Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    &:hover {
+      color: $color-blue;
+      background-color: #fff;
+      border-color: $color-blue;
+    }
+  }
+  &-spnn {
+    position: absolute;
+    bottom: 122px;
+    left: 30px;
+    padding: 6px 13px;
+    background: $color-blue;
+    border-radius: 56px;
+    // font-family: 'Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    &:hover {
+      color: $color-blue;
+      background-color: #fff;
+      border-color: $color-blue;
+    }
+  }
+  &-spns {
+    position: absolute;
+    bottom: 252px;
+    right: 30px;
+    width: 77px;
+    height: 77px;
+    // font-family: 'Circle';
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: $color-blue;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    &:hover {
+      color: $color-blue;
+      background-color: #fff;
+      border-color: $color-blue;
+    }
   }
 }
