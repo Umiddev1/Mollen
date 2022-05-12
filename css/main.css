@@ -843,6 +843,9 @@ a {
   text-transform: uppercase;
   color: #1e1e1e;
 }
+.mollen__dataimg-visibl {
+  display: none;
+}
 
 .mollen__complect {
   margin-top: 242px;
@@ -1191,6 +1194,9 @@ a {
 }
 .mollen__imgs-list {
   margin-right: 10px;
+}
+.mollen__imgs-visbl {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
